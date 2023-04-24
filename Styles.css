@@ -1,0 +1,236 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:grey;
+}
+header{
+  
+  background-color: gray;
+  padding: 10px;
+}
+header h1{
+  text-align: center;
+  color: black;
+}
+nav ul{
+  text-align:right;
+  list-style-type: none;
+  margin-right: 10px;
+  justify-content: flex-end;
+}
+nav li{
+display: inline-block;
+margin-left: 10px;
+
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  text-transform: capitalize;
+  transition: 0.5s ease;
+
+}
+nav a :hover{
+  color: yellow;
+}
+/*section banner**/
+.banner{
+  height: 500px;
+  position: relative;
+}
+
+.banner img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner-content{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+color: aliceblue;
+}
+.banner-content h2{
+  font-size: 48px;
+  margin: 0;
+}
+.banner-content p{
+  font-size: 43%;
+   margin-top: 20px;
+}
+main{
+  color: black;
+  font-weight: 700;
+  font-style: inherit;
+}
+main .images{
+  text-align: center;
+  white-space:nowrap;
+  margin: 60px 0;
+  list-style: none;
+}
+ .images li{
+  display: inline-block;
+  white-space: nowrap;
+}
+.images li img{
+  max-width: 100%;
+}
+hr{
+  width: 100%;
+color: black;
+}
+/*about me section*/
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.about-content{
+  text-align: center;
+}
+.about-image{
+  margin-top: 50px;
+  position: relative;
+}
+.about-image img{
+max-width: 100%;
+height: auto;
+}
+.about-image:before{
+content: url();
+position: absolute;
+top: -20px;
+right: -20px;
+bottom: -20px;
+left: -20px;
+background-color: orange;
+z-index: -1;
+transform: rotate(4deg);
+}
+/**Work Section**/
+.work{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.work-content{
+text-align: center;
+}
+.work-content h3{
+  text-align: center;
+  color: black;
+}
+.work-image{
+  margin-top: 50px;
+  position: relative;
+}
+.work-image img{
+  max-width: 100%;
+height: auto;
+}
+.work-image:before{
+  content: url();
+position: absolute;
+top: -20px;
+right: -20px;
+bottom: -20px;
+left: -20px;
+background-color: orange;
+z-index: -1;
+transform: rotate(4deg);
+}
+/**Resume section**/
+.resume{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+text-align: center;
+}
+.resume h1{
+  text-align: center;
+}
+.resume-image{
+  margin-top: 50px;
+  position: relative;
+}
+.resume-image img{
+  max-width: 100%;
+  height: auto;
+  }
+  .resume-image::before{
+    content: url();
+position: absolute;
+top: -20px;
+right: -20px;
+bottom: -20px;
+left: -20px;
+background-color: orange;
+z-index: -1;
+transform: rotate(4deg);
+  }
+/**form section**/
+form{
+  max-width: 500px;
+  margin: 0 auto;
+}
+label{
+display: block;
+margin-bottom: 10px;
+font-weight: 400;
+}
+input[type="Username"]
+input[type="Email/Number"]
+input[type="Password"]
+textarea{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid chocolate;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+input[type="Username"]:focus
+input[type="Email/Number"]:focus
+input[type="Password"]:focus
+textarea:focus{
+  outline: none;
+  border-color: purple;
+}
+button[type="submit"]
+{
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button[type="submit"]:hover{
+  background-color: beige;
+}
+footer h3{
+  color: chocolate;
+  text-align: center;
+}
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(IMG/body.webp);
+    font-family: 'Roboto', sans-serif;
+}
+header h1{
+    color: rgb(118, 104, 104);
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+h1{
+    color: chocolate;
+    font-size: 19px;
+    font-weight: 400;
+}
